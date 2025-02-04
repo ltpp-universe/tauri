@@ -45,7 +45,7 @@ rust-version = "1.71"
 
 # default to small, optimized workspace release binaries
 [profile.release]
-panic = "abort"
+panic = "unwind"
 codegen-units = 1
 lto = true
 incremental = false
